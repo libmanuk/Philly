@@ -1,5 +1,5 @@
 # Philly
-The theme is based on the Berlin Omeka theme.
+This theme is based on the Berlin Omeka theme.
 
 Some unique features of this theme include:
 
