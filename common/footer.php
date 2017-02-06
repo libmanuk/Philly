@@ -30,10 +30,10 @@ function openCity(evt, cityName) {
     }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace(" activetab", "");
     }
     document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " activesplash";
+    evt.currentTarget.className += " activetab";
 }
 
 // Get the element with id="defaultOpen" and click on it
