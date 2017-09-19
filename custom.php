@@ -14,8 +14,7 @@ $exhibits = $db->getTable("Exhibit")->fetchObjects($select,array($item->id));
 
 if(!empty($exhibits)) {
     foreach($exhibits as $exhibit) {
-echo '<div style="float:right;"><h3><a href="'.exhibit_builder_exhibit_uri($exhibit).'">Biography</a></h3></div>';
+echo '<a href="'.exhibit_builder_exhibit_uri($exhibit).'">Biography</a>';
     }
 }
 }
-
