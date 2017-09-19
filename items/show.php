@@ -2,7 +2,7 @@
 <div id="primary">
 <div id="container">
     <h1><?php echo metadata('item', array('Dublin Core','Title')); ?></h1>
-<?php echo link_to_related_exhibits($item); ?>
+<!--<?php echo link_to_related_exhibits($item); ?>-->
 <!--<div style="float:right;"><h3><a href="<?php echo WEB_ROOT; ?>/exhibits/show/<?php echo link_to_related_exhibits($item); ?>">Biography</a></h3></div>-->
     <!-- The following checks to see if the item is of the Oral History item type and sets the display based on that. -->
 
@@ -12,13 +12,14 @@ if ('Oral History' === $type): ?>
 
 
 <ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Interview</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">Description</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Int')" id="defaultOpen">Interview</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Desc')">Description</a></li>
+<li><?php echo link_to_related_exhibits($item); ?></li>
 </ul>
 
 
 
-<div id="London" class="tabcontenttoggle">
+<div id="Int" class="tabcontenttoggle">
 
 
         <?php echo metadata('item', array('Item Type Metadata', 'OHMS Object')); ?>
@@ -26,7 +27,7 @@ if ('Oral History' === $type): ?>
 
 </div>
 
-<div id="Paris" class="tabcontenttoggle">
+<div id="Desc" class="tabcontenttoggle">
 
     <!-- Items metadata -->
     <div id="item-metadata">
