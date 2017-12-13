@@ -6,10 +6,7 @@
 <!--<div style="float:right;"><h3><a href="<?php echo WEB_ROOT; ?>/exhibits/show/<?php echo link_to_related_exhibits($item); ?>">Biography</a></h3></div>-->
     <!-- The following checks to see if the item is of the Oral History item type and sets the display based on that. -->
 
-<?php 
-$type = $item->getItemType()->name;
-if ('Oral History' === $type): ?>
-
+<?php if(metadata('item', array('OHMS Element Set', 'Interview Format'))): ?>
 
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Int')" id="defaultOpen">Interview</a></li>
@@ -22,7 +19,7 @@ if ('Oral History' === $type): ?>
 <div id="Int" class="tabcontenttoggle">
 
 
-        <?php echo metadata('item', array('Item Type Metadata', 'OHMS Object')); ?>
+        <?php echo metadata('item', array('OHMS Element Set', 'OHMS Object')); ?>
 
 
 </div>
@@ -135,5 +132,4 @@ window.onload = function() {
 </script>
 
  <?php echo foot(); ?>
-
 
