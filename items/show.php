@@ -6,7 +6,9 @@
 <!--<div style="float:right;"><h3><a href="<?php echo WEB_ROOT; ?>/exhibits/show/<?php echo link_to_related_exhibits($item); ?>">Biography</a></h3></div>-->
     <!-- The following checks to see if the item is of the Oral History item type and sets the display based on that. -->
 
-<?php if(metadata('item', array('OHMS Element Set', 'Interview Format'))): ?>
+<?php $format = metadata('item', array('OHMS Element Set', 'Interview Format')); ?>
+
+<?php if ('audio' === $format || 'video' === $format ): ?>
 
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Int')" id="defaultOpen">Interview</a></li>
