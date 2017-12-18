@@ -60,6 +60,7 @@
 
 </div>
 
+<br/><br/>
 
     <!-- The following prints a citation for this item. -->
     <div id="item-citation" class="element">
@@ -107,7 +108,7 @@
 </div>
 
 
-
+<br/><br/>
 
 
     <!-- The following prints a citation for this item. -->
