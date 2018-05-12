@@ -2,8 +2,7 @@
 <div id="primary">
 <div id="container">
     <h1><?php echo metadata('item', array('Dublin Core','Title')); ?></h1>
-<!--<?php echo link_to_related_exhibits($item); ?>-->
-<!--<div style="float:right;"><h3><a href="<?php echo WEB_ROOT; ?>/exhibits/show/<?php echo link_to_related_exhibits($item); ?>">Biography</a></h3></div>-->
+
     <!-- The following checks to see if the item is of the Oral History item type and sets the display based on that. -->
 
 <?php $format = metadata('item', array('OHMS Element Set', 'Interview Format')); ?>
@@ -13,7 +12,6 @@
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Int')" id="defaultOpen">Interview</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Desc')">Description</a></li>
-<li><?php echo link_to_related_exhibits($item); ?></li>
 </ul>
 
 
