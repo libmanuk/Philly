@@ -5,7 +5,7 @@
 
     <!-- The following checks to see if the item is of the Oral History item type and sets the display based on that. -->
 
-<?php $format = metadata('item', array('OHMS Element Set', 'Interview Format')); ?>
+<?php $format = metadata('item', array('Dublin Core', 'Format')); ?>
 
 <?php if ('audio' === $format || 'video' === $format ): ?>
 
@@ -19,7 +19,7 @@
 <div id="Int" class="tabcontenttoggle">
 
 
-        <?php echo metadata('item', array('OHMS Element Set', 'OHMS Object')); ?>
+        <?php echo metadata('item', array('Item Type Metadata', 'OHMS Object')); ?>
 
 
 </div>
