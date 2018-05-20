@@ -574,12 +574,12 @@ header:after {
 }
 @media only screen and (max-width: 767px) {
   header {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   header {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -605,12 +605,12 @@ header:after {
 }
 @media only screen and (max-width: 767px) {
   #header-image {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #header-image {
-    width: 420px;
+    width: 90%;
   }
 }
 #header-image img {
@@ -833,12 +833,12 @@ header:after {
 }
 @media only screen and (max-width: 767px) {
   #primary-nav {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #primary-nav {
-    width: 420px;
+    width: 90%;
   }
 }
 #primary-nav .nav-menu {
@@ -1056,12 +1056,12 @@ header:after {
 }
 @media only screen and (max-width: 767px) {
   #content {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #content {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -1129,12 +1129,12 @@ nav + .exhibit {
 }
 @media only screen and (max-width: 767px) {
   #home #primary {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #home #primary {
-    width: 420px;
+    width: 90%;
   }
 }
 #home #secondary {
@@ -1159,12 +1159,12 @@ nav + .exhibit {
 }
 @media only screen and (max-width: 767px) {
   #home #secondary {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #home #secondary {
-    width: 420px;
+    width: 90%;
   }
 }
 #home #content h2 {
@@ -1236,12 +1236,12 @@ nav + .exhibit {
 }
 @media only screen and (max-width: 767px) {
   .items #content {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .items #content {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -1437,13 +1437,13 @@ ul.title-list {
 @media only screen and (max-width: 767px) {
   .browse .item h2,
   .browse .item-meta .item-img {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .browse .item h2,
   .browse .item-meta .item-img {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -1484,12 +1484,12 @@ ul.title-list {
 }
 @media only screen and (max-width: 767px) {
   .browse .item-meta {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .browse .item-meta {
-    width: 420px;
+    width: 90%;
   }
 }
 .browse .item-meta p:first-of-type {
@@ -1517,12 +1517,12 @@ ul.title-list {
 }
 @media only screen and (max-width: 767px) {
   .browse .item-meta > div {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .browse .item-meta > div {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -1652,13 +1652,13 @@ ul.title-list {
 @media only screen and (max-width: 767px) {
   .browse .collection h2,
   .browse .exhibit h2 {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .browse .collection h2,
   .browse .exhibit h2 {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -1694,12 +1694,12 @@ ul.title-list {
 }
 @media only screen and (max-width: 767px) {
   .collection-meta {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .collection-meta {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -1812,12 +1812,12 @@ footer:after {
 }
 @media only screen and (max-width: 767px) {
   footer {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   footer {
-    width: 420px;
+    width: 90%;
   }
 }
 footer a {
@@ -1961,7 +1961,7 @@ footer nav + p {
   #exhibit-blocks,
   #exhibit-page-navigation,
   .exhibits.summary #primary {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -1969,7 +1969,7 @@ footer nav + p {
   #exhibit-blocks,
   #exhibit-page-navigation,
   .exhibits.summary #primary {
-    width: 420px;
+    width: 90%;
   }
 }
 
@@ -2012,13 +2012,13 @@ footer nav + p {
 @media only screen and (max-width: 767px) {
   .exhibit .description,
   .exhibit .description ~ * {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .exhibit .description,
   .exhibit .description ~ * {
-    width: 420px;
+    width: 90%;
   }
 }
 .exhibit .description p:first-of-type,
@@ -2104,12 +2104,12 @@ footer nav + p {
 }
 @media only screen and (max-width: 768px) and (max-width: 767px) {
   #mobile-nav {
-    width: 300px;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) and (max-width: 767px) {
   #mobile-nav {
-    width: 420px;
+    width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
