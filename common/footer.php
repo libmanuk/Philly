@@ -49,6 +49,37 @@ document.getElementById("defaultOpen").click();
     });
 </script>
 
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var $list = $('#splashset');
+
+
+$('button').data('lastSort', 'desc').click(function() {
+    var $items = $list.children(), lastSort=$(this).data('lastSort');
+    var direction = lastSort=='asc' ? 'desc' :  'asc';
+   $(this).data('lastSort',direction);
+    $list.empty().append($items.sort(directionSort[direction]));
+});
+
+
+var directionSort = {
+    asc: function (a, b) {
+        return a.id < b.id ? -1 : 1;
+    },
+    desc: function (a, b) {
+        return a.id > b.id ? -1 : 1;
+    }
+}
+
+window.setTimeout(clickit, 100);
+function clickit(){
+   document.getElementById("splashsort").click();
+}
+
+});//]]> 
+
+</script>
+
 </body>
 
 </html>
