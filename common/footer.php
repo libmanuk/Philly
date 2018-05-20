@@ -80,6 +80,37 @@ function clickit(){
 
 </script>
 
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var $listm = $('#splashset_mobile');
+
+
+$('button').data('lastSortm', 'desc').click(function() {
+    var $itemsm = $listm.children(), lastSortm=$(this).data('lastSortm');
+    var directionm = lastSortm=='asc' ? 'desc' :  'asc';
+   $(this).data('lastSortm',directionm);
+    $listm.empty().append($itemsm.sort(directionSortm[directionm]));
+});
+
+
+var directionSortm = {
+    asc: function (a, b) {
+        return a.id < b.id ? -1 : 1;
+    },
+    desc: function (a, b) {
+        return a.id > b.id ? -1 : 1;
+    }
+}
+
+window.setTimeout(clickit, 100);
+function clickit(){
+   document.getElementById("splashsort_mobile").click();
+}
+
+});//]]> 
+
+</script>
+
 </body>
 
 </html>
