@@ -2320,8 +2320,9 @@ ul.tab li a:focus, .activetab {
     float: left;
     display: inline-block;
     width: calc(100%/4);
-    margin: 0; padding: 10;
-    height: 500px;
+    margin: 0; 
+    padding: 10px;
+    height: 550px;
 }
 
 #ohms-element-set-ohms-object {
@@ -2329,5 +2330,23 @@ ul.tab li a:focus, .activetab {
 }
 
 
+
+@media screen and (min-width: 801px) and (max-width: 4024px) {
+  #splashset_mobile { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  #splashset { display: none; }  /* show it on small screens */
+}
+
+
+.splashitem-description {
+    height: 100px;
+    margin-top: 50px;
+}
+
+.splashitem > div > div > h2 {
+    height: 100px;
+}
 
 
