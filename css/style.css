@@ -2349,4 +2349,15 @@ ul.tab li a:focus, .activetab {
     height: 100px;
 }
 
+#oral-history-item-type-metadata-sort-priority {
+    display: none;
+}
+
+#oral-history-item-type-metadata-ohms-object {
+    display: none;
+}
+
+#oral-history-item-type-metadata-ohms-object-text {
+    display: none;
+}
 
