@@ -10,17 +10,13 @@
 <?php if ('audio' === $format || 'video' === $format ): ?>
 
 <ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Int')" id="defaultOpen">Interview</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Desc')">Description</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Int')" id="defaultOpen">Interview</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Desc')">Description</a></li>
 </ul>
-
-
 
 <div id="Int" class="tabcontenttoggle">
 
-
         <?php echo metadata('item', array('Item Type Metadata', 'OHMS Object')); ?>
-
 
 </div>
 
@@ -51,8 +47,6 @@
     </div>
     <?php endif; ?>
 </div>
-
-
 
 </div>
 
@@ -102,12 +96,9 @@
     </div>
     <?php endif; ?>
 
-
 </div>
 
-
 <br/><br/>
-
 
     <!-- The following prints a citation for this item. -->
     <div id="item-citation" class="element">
@@ -115,7 +106,6 @@
         <div class="element-text"><?php echo metadata('item','citation',array('no_escape'=>true)); ?></div>
     </div>
        <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
-
 
     <ul class="item-pagination navigation">
         <li id="previous-item" class="previous"><?php echo link_to_previous_item_show(); ?></li>
@@ -132,5 +122,4 @@ window.onload = function() {
 }
 </script>
 
- <?php echo foot(); ?>
-
+<?php echo foot(); ?>
