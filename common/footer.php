@@ -22,7 +22,7 @@
 
 
 <script>
-function openCity(evt, cityName) {
+function openTab(tab, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontenttoggle");
     for (i = 0; i < tabcontent.length; i++) {
@@ -32,8 +32,8 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" activetab", "");
     }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " activetab";
+    document.getElementById(tabName).style.display = "block";
+    tab.currentTarget.className += " activetab";
 }
 
 // Get the element with id="defaultOpen" and click on it
