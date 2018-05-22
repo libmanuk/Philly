@@ -10,3 +10,6 @@ Some unique features of this theme include:
 3. Special dynamic link between Oral History Item Type records and related exhibits.  If an exhibit links to an Oral History Item Type record, the theme dynamically creates a link back to the related exhibit from the item view.
 
 **Note that this theme relies on the Omeka plugin 'OHMSObject' in order to serve OHMS objects embedded within item views.
+
+##
+This theme was created through a partnership between the Louie B. Nunn Center for Oral History and West Chester University and a collaboration between Eric Weig, Doug Boyd, and Janneken Smucker.   
