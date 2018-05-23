@@ -64,10 +64,10 @@ $('button').data('lastSort', 'desc').click(function() {
 
 var directionSort = {
     asc: function (a, b) {
-        return a.id < b.id ? -1 : 1;
+	return (a.id==="")-(b.id==="") || +(a.id>b.id)||-(a.id<b.id);
     },
     desc: function (a, b) {
-        return a.id > b.id ? -1 : 1;
+	return (a.id==="")-(b.id==="") || -(a.id>b.id)||+(a.id<b.id);
     }
 }
 
@@ -95,10 +95,10 @@ $('button').data('lastSortm', 'desc').click(function() {
 
 var directionSortm = {
     asc: function (a, b) {
-        return a.id < b.id ? -1 : 1;
+	return (a.id==="")-(b.id==="") || +(a.id>b.id)||-(a.id<b.id);
     },
     desc: function (a, b) {
-        return a.id > b.id ? -1 : 1;
+	return (a.id==="")-(b.id==="") || -(a.id>b.id)||+(a.id<b.id);
     }
 }
 
