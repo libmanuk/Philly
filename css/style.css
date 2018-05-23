@@ -2315,6 +2315,11 @@ ul.tab li a:focus, .activetab {
     margin: 0; padding: 0;
 }
 
+#splashset_mobile 
+{
+    text-align: center;
+}
+
 .splashitem 
 {
     float: left;
