@@ -848,6 +848,8 @@ header:after {
   margin: 0 0 0 -1px;
   padding: 0 0 0 1px;
   z-index: 15;
+  font-size: 16px;
+  font-weight: bold;
 }
 #primary-nav li {
   list-style-type: none;
@@ -993,6 +995,8 @@ header:after {
 
 #mobile-nav {
   display: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Pagination Classes */
