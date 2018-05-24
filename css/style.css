@@ -2343,6 +2343,14 @@ ul.tab li a:focus, .activetab {
     float: right;
 }
 
+#omeka_proud {
+    margin-top: 75px;
+}
+
+#omeka_proud > p {
+    float: right;
+}
+
 @media screen and (min-width: 801px) and (max-width: 4024px) {
   #splashset_mobile { display: none; }   /* hide it elsewhere */
 }
