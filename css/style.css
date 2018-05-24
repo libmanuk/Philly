@@ -2338,7 +2338,9 @@ ul.tab li a:focus, .activetab {
     display: none;
 }
 
-
+#ohms_logo_footer img {
+    width: 75px;
+}
 
 @media screen and (min-width: 801px) and (max-width: 4024px) {
   #splashset_mobile { display: none; }   /* hide it elsewhere */
