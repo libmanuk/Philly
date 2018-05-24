@@ -2339,7 +2339,8 @@ ul.tab li a:focus, .activetab {
 }
 
 #ohms_logo_footer img {
-    width: 75px;
+    width: 55px;
+    float: right;
 }
 
 @media screen and (min-width: 801px) and (max-width: 4024px) {
