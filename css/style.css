@@ -2324,6 +2324,11 @@ ul.tab li a:focus, .activetab {
     text-align: center;
 }
 
+#primary_mobile 
+{
+    text-align: center;
+}
+
 .splashitem 
 {
     float: left;
@@ -2338,7 +2343,7 @@ ul.tab li a:focus, .activetab {
     display: none;
 }
 
-#ohms_logo_footer img {
+#ohms_logo_footer {
     width: 55px;
     float: right;
 }
@@ -2351,6 +2356,14 @@ ul.tab li a:focus, .activetab {
     float: right;
 }
 
+#primary {
+    margin-bottom:20px;
+}
+
+#primary_mobile {
+    margin-bottom:20px;
+}
+
 @media screen and (min-width: 801px) and (max-width: 4024px) {
   #splashset_mobile { display: none; }   /* hide it elsewhere */
 }
@@ -2359,6 +2372,13 @@ ul.tab li a:focus, .activetab {
   #splashset { display: none; }  /* show it on small screens */
 }
 
+@media screen and (min-width: 801px) and (max-width: 4024px) {
+  #primary_mobile { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  #primary { display: none; }  /* show it on small screens */
+}
 
 .splashitem-description {
     height: 100px;
@@ -2380,4 +2400,3 @@ ul.tab li a:focus, .activetab {
 #oral-history-item-type-metadata-ohms-object-text {
     display: none;
 }
-
