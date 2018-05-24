@@ -12,19 +12,19 @@
         <p><?php echo $copyright; ?></p>
         <?php endif; ?>
         <nav><?php echo public_nav_main()->setMaxDepth(0); ?></nav>
-        <p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p>
-
-    </div><!-- end footer-content -->
-
-     <?php fire_plugin_hook('public_footer', array('view'=>$this)); ?>
-	
-     <?php
-     $base_url="http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
+             <?php
+    $base_url="http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
      $theme_path = realpath(__DIR__ . '/..');
      $theme_subpath = strstr($theme_path, 'themes');
      ?>
 
-<div id="ohms_logo_footer"><a href="http://oralhistoryonline.org" target="_blank"><img src=" <?php echo $base_url; ?><?php echo $theme_subpath; ?>/images/ohms_logo.png"/></a></div>
+<p><a href="http://oralhistoryonline.org" target="_blank"><img id="ohms_logo_footer" src=" <?php echo $base_url; ?><?php echo $theme_subpath; ?>/images/ohms_logo.png"/></a></p>
+
+    </div><!-- end footer-content -->
+<div id="omeka_proud"><p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p></div>
+
+     <?php fire_plugin_hook('public_footer', array('view'=>$this)); ?>
+
 
 </footer>
 
