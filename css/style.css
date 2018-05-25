@@ -1094,6 +1094,7 @@ header:after {
 .record {
   clear: both;
   overflow: auto;
+  margin-bottom: 15px;
 }
 
 #sort-links + .item,
@@ -2336,7 +2337,7 @@ ul.tab li a:focus, .activetab {
     width: calc(100%/4);
     margin: 0; 
     padding: 10px;
-    height: 550px;
+    height: 425px;
 }
 
 #ohms-element-set-ohms-object {
@@ -2382,11 +2383,15 @@ ul.tab li a:focus, .activetab {
 
 .splashitem-description {
     height: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.splash_head_style {
+    margin-bottom: 0px;
 }
 
 .splashitem > div > div > h2 {
-    height: 100px;
+    height: 80px;
 }
 
 #oral-history-item-type-metadata-sort-priority {
