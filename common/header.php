@@ -34,6 +34,15 @@
     <?php echo head_js(); ?>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+    
+<!-- Open Graph tags for social media -->
+<meta property="og:image" content="<?php echo get_theme_option('open_graph_tags_imageurl'); ?>" />
+<meta property="og:image:width" content="<?php echo get_theme_option('open_graph_tags_imagewidth'); ?>" />
+<meta property="og:image:height" content="<?php echo get_theme_option('open_graph_tags_imageheight'); ?>" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:secure_url" content="<?php echo get_theme_option('open_graph_tags_imageurl'); ?>" />
+<meta property="og:description" content="<?php echo get_theme_option('open_graph_tags_repository'); ?>" />
+<meta property="og:title" content="<?php echo implode(' &middot; ', $titleParts); ?>" />
 
 </head>
  <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
