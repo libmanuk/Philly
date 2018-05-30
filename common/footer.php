@@ -17,6 +17,9 @@
      $theme_path = realpath(__DIR__ . '/..');
      $theme_subpath = strstr($theme_path, 'themes');
      $base_url = str_replace('items/show/','',$base_url);
+     $base_url = str_replace('exhibits/show/exhibit/','',$base_url);
+     $base_url = str_replace('collections/','',$base_url);
+     $base_url = str_replace('items/','',$base_url);
      ?>
 
 <p><a href="http://oralhistoryonline.org" target="_blank"><img id="ohms_logo_footer" src=" <?php echo $base_url; ?><?php echo $theme_subpath; ?>/images/ohms_logo.png"/></a></p>
