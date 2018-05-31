@@ -2395,3 +2395,8 @@ ul.tab li a:focus, .activetab {
 #oral-history-item-type-metadata-ohms-object-text {
     display: none;
 }
+
+#splashset > li > div > div > div > a > img {
+width: 200px;
+height: 200px;
+}
