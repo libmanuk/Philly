@@ -850,6 +850,7 @@ header:after {
   z-index: 15;
   font-size: 16px;
   font-weight: bold;
+  font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
 }
 #primary-nav li {
   list-style-type: none;
