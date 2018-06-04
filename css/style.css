@@ -2362,11 +2362,11 @@ ul.tab li a:focus, .activetab {
     margin-bottom:20px;
 }
 
-@media screen and (min-width: 801px) and (max-width: 4024px) {
+@media screen and (min-width: 961px) and (max-width: 4024px) {
   #splashset_mobile { display: none; }   /* hide it elsewhere */
 }
 
-@media screen and (min-width: 0px) and (max-width: 800px) {
+@media screen and (min-width: 0px) and (max-width: 960px) {
   #splashset { display: none; }  /* show it on small screens */
 }
 
