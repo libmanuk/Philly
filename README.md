@@ -11,5 +11,7 @@ Some unique features of this theme include:
 
 **Note that this theme relies on the Omeka plugin 'OHMSObject' in order to serve OHMS objects embedded within item views.
 
+**For more information, please view <a href="https://kentuckoralhistory.org">Philly Theme User Guide</a>.
+
 ##
 This theme was created through a partnership between the Louie B. Nunn Center for Oral History and West Chester University and a collaboration between Eric Weig, Doug Boyd, and Janneken Smucker.   
